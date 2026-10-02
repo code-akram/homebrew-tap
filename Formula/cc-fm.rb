@@ -2,7 +2,7 @@
 class CcFm < Formula
   desc "Player for cc-fm: claude.fm with a live spectrum in Claude Code"
   homepage "https://github.com/code-akram/cc-fm-mod"
-  version "0.0.8"
+  version "0.0.9"
   license "MIT"
 
   depends_on "ffmpeg"
@@ -10,23 +10,23 @@ class CcFm < Formula
 
   on_macos do
     on_arm do
-      url "https://github.com/code-akram/cc-fm-mod/releases/download/v0.0.8/cc-fm_darwin_arm64.tar.gz"
-      sha256 "38d45fe33097863d6104dc3a427a3974bb2d22dc57d8ae0c1af1f3f71b24c35b"
+      url "https://github.com/code-akram/cc-fm-mod/releases/download/v0.0.9/cc-fm_darwin_arm64.tar.gz"
+      sha256 "1c1420425ccea78b0f75380e68cc8e85900304ba1c6fe418cdd7731b18bc9766"
     end
     on_intel do
-      url "https://github.com/code-akram/cc-fm-mod/releases/download/v0.0.8/cc-fm_darwin_amd64.tar.gz"
-      sha256 "41e1163f17fb91e8603e140bff981bbdeb80ce8f7bdc164e6be535279441a00a"
+      url "https://github.com/code-akram/cc-fm-mod/releases/download/v0.0.9/cc-fm_darwin_amd64.tar.gz"
+      sha256 "cbac4a993415a4dc05f35a70043b1ca6d4cfa7589f8d34fde1465c6cb73b789d"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/code-akram/cc-fm-mod/releases/download/v0.0.8/cc-fm_linux_arm64.tar.gz"
-      sha256 "d10427d7d836c45604c583699caf784a798e9fdefc9788dd9512446d3471ac4a"
+      url "https://github.com/code-akram/cc-fm-mod/releases/download/v0.0.9/cc-fm_linux_arm64.tar.gz"
+      sha256 "fa535b47d6d163bc7dc219940071e81cf41291d7289efb4419c23081991b2e13"
     end
     on_intel do
-      url "https://github.com/code-akram/cc-fm-mod/releases/download/v0.0.8/cc-fm_linux_amd64.tar.gz"
-      sha256 "7d1895c1b5faec864c107ba663b75c9b2d1a14b7e24fd4ab38a6aaf1e0c4618e"
+      url "https://github.com/code-akram/cc-fm-mod/releases/download/v0.0.9/cc-fm_linux_amd64.tar.gz"
+      sha256 "a43ef4dd66d2c947f89e301cdb8621d72381c273c3bc96a9d6143d5b7df9636b"
     end
   end
 
